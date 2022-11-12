@@ -17,6 +17,6 @@ jobs:
           repoToken: '${{ secrets.USER }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SOLINTRA_FF49D }}'
           channelId: live
-          projectId: simple-html-page
+          projectId: solintra-ff49d
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
