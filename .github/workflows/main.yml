@@ -14,8 +14,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SIMPLE_HTML_PAGE }}'
+          repoToken: '${{ secrets.USER }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SOLINTRA_FF49D }}'
           channelId: live
           projectId: simple-html-page
         env:
